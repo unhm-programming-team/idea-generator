@@ -19,7 +19,7 @@ def rand_idea():
     key = request.args.get('key', default=None) # get the key argument
     if key == real_key:
         seed = request.args.get('seed', default=-1) # get the seed argument if it exists
-        idea = ComponentRegistry.get_traversed_sentence(seed)
+        idea = ComponentRegistry.get_traversed_sentence(str(seed))
         return idea
     else:
         return "403 forbidden" # forbidden
