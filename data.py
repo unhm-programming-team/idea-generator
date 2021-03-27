@@ -5,6 +5,7 @@ class Data:
         'slow-paced',
         'melancholy',
         'fantastical',
+        'magnificent',
     ]
     game_types = [
         'a platformer',
@@ -23,7 +24,9 @@ class Data:
         'firecracker',
         'unmotivated',
         'nerdy',
-        'gearhead'
+        'gearhead',
+        'fierce',
+        'defeated'
     ]
     player_professions = [
         'a firefighter',
@@ -50,7 +53,8 @@ class Data:
         'steal',
         'find',
         'get',
-        'study'
+        'study',
+        'achieve'
     ]
     goal_target = [
         'a rare gemstone',
